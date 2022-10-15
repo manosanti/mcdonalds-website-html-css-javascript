@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;500&display=swap');
+
+* {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+.content{
+    width: 70%;
+}
+
+.nav-logo{
+    margin: 10px;
+}
+
+.a-top{
+    color: #606060;
+    text-decoration: none;
+    padding-right: 60px;
+}
+
+.a-bottom{
+    color: #292929e5;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar-top-title{
+    font-size: 18px;
+    flex-direction: col;
+    margin-bottom: 20px;
+}
+
+.navbar-bottom-title{
+    font-size: 25px;
+    flex-direction: col;
+    font-weight: 500;
+}
+
+/* Hero Image */
+
+.hero-image{
+    margin-bottom: 40px;
+}
+
+/* Cards */
+
+.cards{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.img-card{
+    text-align: center;
+}
+
+.border-card{
+    border-radius: 10px 10px 0 0;
+}
+
+.container{
+    padding: 2px 16px;
+}
